@@ -7,7 +7,11 @@
   </head>
   <body>
     <div class="container">
-      <div class="row" style="padding-top: 20%;">
+      <div class="jumbotron">
+        <h1 class="text-center">TicTacToe</h1>
+        <h3 class="text-center">An easy TicTacToe-Game made with PHP. The source can be found at <a href='https://github.com/n15c/'>Github</a></h3>
+      </div>
+      <div class="row">
         <div class="col-lg-4"></div>
         <div class="col-lg-4">
           <form action="game.php" method="post">
@@ -22,7 +26,6 @@
             <input class="form-control btn btn-primary" type="submit" name="Senden" value="Senden">
           </form>
         </div>
-        <div class="col-lg-4"></div>
       </div>
     </div>
   </body>
