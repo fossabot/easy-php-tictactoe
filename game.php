@@ -51,6 +51,13 @@
             if ($_SESSION["activeplayer"] == "") {
               $_SESSION["activeplayer"] = rand(1,2);
             }
+            if (isset($_GET["zug"])) {
+              if (!isset($_SESSION["lastzug"])) {
+                $_SESSION["lastzug"] = $_GET["zug"];
+              }
+              
+            }
+
             if ($_SESSION["activeplayer"] == 1) {
               $_SESSION["activeplayer"] = 2;
             }

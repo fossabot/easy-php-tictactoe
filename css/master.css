@@ -2,12 +2,11 @@ table {
   width: 40%;
 }
 td {
-  width: 33.33%;
-  max-height: 33.33%;
+  width: 128px;
+  height: 128px;
   position: relative;
 }
 td:after {
-  content: '';
   display: block;
   margin-top: 100%;
 }
